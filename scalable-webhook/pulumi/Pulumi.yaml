@@ -1,0 +1,3 @@
+name: simple-webhook
+runtime: nodejs
+description: Simple Webhook serverless reference architecture
