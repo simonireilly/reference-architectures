@@ -1,4 +1,4 @@
-# Simple Web Service (Pulumi)
+# Sample Web Service (Pulumi)
 
 To spin up this architecture in your AWS account, follow these steps:
 
@@ -25,14 +25,23 @@ To spin up this architecture in your AWS account, follow these steps:
     # any region will do
     ```
 
-5. Deploy!
+5. Setup the required stack secrets and configuration
+
+    ```bash
+    $ pulumi config set databaseName SampleWebhookDatabase
+    $ pulumi config set --secret masterPassword yoursecretpassword
+    $ pulumi config set --secret masterUsername yourusername
+    ```
+
+
+6. Deploy!
 
     ```bash
     $ pulumi up
     # follow the prompts...
     ```
 
-6. Clean Up
+7. Clean Up
 
     ```bash
     $ pulumi destroy

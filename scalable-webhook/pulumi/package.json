@@ -1,11 +1,13 @@
 {
-    "name": "simple-webhook",
+    "name": "sample-webhook",
     "devDependencies": {
-        "@types/node": "^10.0.0"
+        "@types/node": "^10.0.0",
+        "@types/pg": "^7.14.4"
     },
     "dependencies": {
-        "@pulumi/pulumi": "^2.0.0",
         "@pulumi/aws": "^2.0.0",
-        "@pulumi/awsx": "^0.20.0"
+        "@pulumi/awsx": "^0.20.0",
+        "@pulumi/pulumi": "^2.0.0",
+        "pg": "^7.14.4"
     }
 }
