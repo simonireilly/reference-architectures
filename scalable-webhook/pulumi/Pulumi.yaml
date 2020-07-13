@@ -1,0 +1,3 @@
+name: scalable-webhook
+runtime: nodejs
+description: Scalable Webhook serverless reference architecture
